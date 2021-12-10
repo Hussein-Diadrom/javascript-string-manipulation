@@ -1,7 +1,8 @@
 // Create a tagged template lf`...` that formats text using LF line endings.
 const lf = (strings,...values ) => {
 return strings.reduce((results,literal,index)=>{
-  const transformString = transformLineEnding(literal,LineEndings.LF);
+  const transformString = transformLineEnding(literal,LineEndings.LF)!= null? literal:"";
+
   let value = (values[index]!=null ? values[index] :"");
   return `${results}${transformString}${value}`
 },"");
