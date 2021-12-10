@@ -1,11 +1,15 @@
+/*
 var index = require("./index.js");
 var LineEndings = index.LineEndings;
 var transformLineEnding = index.transformLineEnding;
-
+*/
+import{LineEndings,transformLineEnding} from './index.js';
+import { help,usage } from './info.js';
+/*
 var helpText = require("./info.js");
 var help = helpText.help;
 var usage = helpText.usage;
-
+*/
 // Display help text and exit if when someone passes `-h` or `--help`.
 if (process.argv.includes("-h") || process.argv.includes("--help")) {
   console.log(help);
