@@ -1,5 +1,5 @@
 // Create a tagged template lf`...` that formats text using LF line endings.
-var lf = () => {};
+var lf = ([``],number ) => {};
 
 // Create a tagged template cr`...` that formats text using CR line endings.
 var cr = () => {};
