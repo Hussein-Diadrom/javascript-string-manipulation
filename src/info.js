@@ -12,7 +12,8 @@ Options:
           CR is a carriage return character (rare)
           LF is a line feed character (common on Unix and macOS)
           CRLF is a combined ending (common on Windows)
-        
+   
+          
 Example:
 
           cat in.txt | crlf-convert LF > out.txt`;
