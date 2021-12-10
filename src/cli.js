@@ -3,8 +3,8 @@ var index = require("./index.js");
 var LineEndings = index.LineEndings;
 var transformLineEnding = index.transformLineEnding;
 */
-import{LineEndings,transformLineEnding} from './index.js';
-import { help,usage } from './info.js';
+const {LineEndings,transformLineEnding} = requier("./index.js");
+const {help,usage}= requier("./info.js");
 /*
 var helpText = require("./info.js");
 var help = helpText.help;
